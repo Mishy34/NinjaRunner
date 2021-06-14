@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Dog
     - En1
     - En2
     - En3
@@ -1147,6 +1148,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2abd152b755d23fd0a9b9dc212e36788
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Dog
   platform: 19
   scenePathNames:
   - Assets/Scenes/GameMenu.unity
